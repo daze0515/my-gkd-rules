@@ -5,12 +5,12 @@
 ## 目录结构
 
 - `apps/` 每个应用一个文件，文件名 = 应用包名
-  - `com.qq.reader.json5` QQ阅读 - 开屏/热启动广告
+  - `com.qq.reader.json` QQ阅读 - 开屏/热启动广告
 
 ## 如何导入 GKD
 
 ### 方式一：单个文件订阅（推荐新手）
-1. 在 GitHub 上打开某个规则文件（比如 `apps/com.qq.reader.json5`）
+1. 在 GitHub 上打开某个规则文件（比如 `apps/com.qq.reader.json`）
 2. 点 `Raw` 按钮，复制地址栏链接
 3. GKD → 订阅 → 右上角 `+` → 粘贴链接
 
@@ -29,3 +29,4 @@
 - `matchTime` 不要给太大（10-20秒），防止误触
 - `actionMaximum: 1` 防止重复点击
 - 关键规则尽量填 `snapshotUrls`，方便以后维护
+
