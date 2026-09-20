@@ -1,0 +1,28 @@
+{
+  "id": "daze0515",
+  "name": "daze0515的自定义规则",
+  "version": 1,
+  "author": "daze0515",
+  "apps": [
+    {
+      "id": "com.qq.reader",
+      "name": "QQ阅读",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏/热启动广告",
+          "desc": "跳过右上角跳过X按钮",
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "matches": "[id=\"com.qq.reader:id/splash_root\"] > TextView[text^=\"跳过\"][clickable=true]",
+              "snapshotUrls": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
