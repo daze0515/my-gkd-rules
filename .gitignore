@@ -1,0 +1,10 @@
+# 系统/编辑器
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+*.bak
+
+# 快照备份（可能含隐私）
+snapshot_*/
+*.zip
