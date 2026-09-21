@@ -1,7 +1,7 @@
 {
   id: 2026092101,
   name: 'daze0515的自定义规则',
-  version: 5,
+  version: 6,
   author: 'daze0515',
   apps: [
     {
@@ -31,7 +31,7 @@
           forcedTime: 3000,
           resetMatch: 'activity',
           actionCd: 500,
-          actionMaximum: 1,
+          actionMaximum: 12,
           rules: [
             {
               key: 0,
