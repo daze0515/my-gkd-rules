@@ -1,7 +1,7 @@
 {
   id: 2026092101,
   name: 'daze0515的自定义规则',
-  version: 4,
+  version: 5,
   author: 'daze0515',
   apps: [
     {
@@ -48,13 +48,15 @@
           key: 2,
           name: '更新提示-取消更新',
           desc: '自动取消“安装新版本”提示',
+          fastQuery: true,
           matchTime: 5000,
+          forcedTime: 3000,
           resetMatch: 'activity',
           actionMaximum: 1,
           rules: [
             {
               key: 0,
-              matches: '[vid="cancelButton"][text="取消"][clickable=true][visibleToUser=true]',
+              matches: '[id="com.qq.reader:id/cancelButton"][clickable=true][visibleToUser=true]',
               action: 'clickCenter',
               snapshotUrls: []
             }
